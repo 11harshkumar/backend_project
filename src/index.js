@@ -7,7 +7,8 @@ dotenv.config({
 })
 
 import connectDB from "./db/index.js";
-
+// import { DB_NAME } from './constants.js'
+// console.log(`${process.env.MONGODB_URI}/${DB_NAME}`)
 connectDB()
 
 
